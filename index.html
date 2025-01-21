@@ -8,147 +8,173 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu" id="home">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#intro">About</a></li>
-          <li><a href="#proyects">Proyects</a></li>
-          <li><a href="#contacto">Contact</a></li>
-          
-        </ul>
-    </nav>
-
-    <div class="content">
-        <div class="intro" id="intro">
-            <img class="perfil" src="./img/crop.png" alt="">
-            <div class="texto">
-                <h2 style="font-weight: bold;">Hola, soy MauroB_Dev<img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt=""></h2>
-                <b style="font-size: x-large;">Backend Developer Junior</b>
-                <br>
-                <p style="all: unset;">Soy Mauro, Estudiante de 3ro año de la carrera <b>"Tecnicatura superior en desarrollo de software"</b></p>
-                <p >Apacionado por el backend y python</p>
-                <ul>
-                    <li>😎 22 años </li>
-                    <li>🌍 Soy de Argentina, Mendoza </li>
-                    <li>👨‍💻 Enfocado en mejorar como desarrollador backend</li>
-                    <li>📗 Con habilidades adicionales en desarrollo frontend </li>
-                    <li style="cursor: pointer;">✉️ Puedes contactarme en: <b style="color: yellow;"><a style="all: unset;" href="mailto:mauroberni002@gmail.com">mauroberni002@gmail.com</a></b> </li>
-                </ul>
+    <div class="contenedor">
+        <div class="perfil">
+            <img id="img_perfil" src="./img/crop.png" alt="">
+            <div class="info">
+                <h2 id="nombre">Mauro B. Mezzenasco</h2>
+                <h4 id="ocupacion">Programador Jr</h4>
+                <div class="locacion">
+                    <img id="location" src="./img/location.svg" alt="">
+                    <h5 id="ubicacion">Mendoza,Argentina</h5>
+                </div>
+                <div class="iconos">
+                    <a href="mailto:mauroberni002@gmail.com" target="_blank">
+                    <div class="icon">
+                        <img src="./img/email.svg" alt="">
+                    </div>
+                    </a>
+                    <div class="icon3">
+                        <a href="https://github.com/Mauro-707" target="_blank">
+                            <img src="./img/github.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="icon2">
+                        <a href="https://www.linkedin.com/in/maurodev" target="_blank">
+                            <img id="linkedin" src="./img/linkedin.svg" alt="">
+                        </a>
+                    </div>
+                    
+                </div>
             </div>
+        </div>
+        <div class="span">
 
         </div>
-        <div class="tecnologias">
-            <h3 style="text-align: left;">Lenguajes</h3>
+        <div class="sobremi">
+            <h2>Sobre Mi</h2>
             <hr>
-            <div class="lenguajes">
-                
-                <b>Backend</b>
-                <img src="https://skillicons.dev/icons?i=python,django,mysql" />
-               
-                <br>
-                <b>Frontend</b>
-                <img src="https://skillicons.dev/icons?i=react,html,css" />
-                <br>
-                <b>Herramientas</b>
-                <img src="https://skillicons.dev/icons?i=vscode,postman,git" />
-
+            <p id="texto">¡Hola! Soy Mauro Berni, un programador junior apasionado por convertir ideas en realidad a través del código. A mis 22 años, estoy dando los primeros pasos en el fascinante mundo del desarrollo de software, y cada proyecto es una oportunidad para aprender, crecer y demostrar de lo que soy capaz.</p>
+            <p id="texto" >Mi curiosidad y dedicación me han llevado a explorar tecnologías como Django, Apis, etc</p>
+        </div>
+        
+        
+        <div class="tecnologias">
+            <h2>Tecnologias</h2>
+            <hr>
+            <div style="display: flex; justify-content: center;">
+                <div class="backend">
+                    <div class="logos">
+                        <img src="https://skillicons.dev/icons?i=py" height="50" alt="python logo"  />
+                        <img src="https://skillicons.dev/icons?i=django" height="50" alt="django logo"  />
+                        <img src="https://skillicons.dev/icons?i=mysql" height="50" alt="mysql logo"  />  
+                    </div>              
+                    <div id="titulo">
+                        <div id="lol">
+                            <h4>Backend</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="backend">
+                    <div class="logos">
+                        <img src="https://skillicons.dev/icons?i=react" height="50" alt="react logo"  />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50" alt="html5 logo"  />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="50" alt="css3 logo"  />
+                    </div>              
+                    <div id="titulo">
+                        <div id="lol">
+                            <h4>Frontend</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="backend">
+                    <div class="logos">
+                        <img src="https://cdn.simpleicons.org/postman/FF6C37" height="50" alt="postman logo"  />
+                        <img src="https://skillicons.dev/icons?i=vscode" height="50" alt="vscode logo"  />
+                        <img src="https://skillicons.dev/icons?i=git" height="50" alt="git logo"  />
+                        <img src="https://skillicons.dev/icons?i=github" height="50" alt="github logo"  />
+                         
+                    </div>              
+                    <div id="titulo">
+                        <div id="lol">
+                            <h4>Herramientas</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
         
-        <div class="proyectos" id="proyects">
-            <h3>Proyectos</h3>
+        <div class="proyectos">
+            <h2>Proyectos</h2>
             <hr>
-            <div class="info">
-                <img style="max-width: 200px;" src="/img/Logo4.png" alt="">
-                <br>
-                <p> MeetSounds es una red social innovadora diseñada para conectar a personas apasionadas por la música, músicos y bandas. Nuestra plataforma proporciona un espacio único para     
-                    colaborar, interactuar y crecer dentro del mundo de la música.</p>
-            </div>
-            <div id="carouselExample" class="carousel slide">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="/img/meet (1).png" class="d-block w-100" alt="...">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img style="border-radius: 30px;" src="./img/meet (6).png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color: white; font-size: 50px;">MeetSounds</h5>
+                      <p style="color: white; font-size: 25px; font-weight: bold;">Una red social para musicos</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img style="border-radius: 30px;" src="./img/meet (1).png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color: white; font-size: 50px;">MeetSounds</h5>
+                      <p style="color: white; font-size: 25px; font-weight: bold;">Sube y escucha musica de todo el mundo</p>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="/img/meet (6).png" class="d-block w-100" alt="...">
+                    <img style="border-radius: 30px;" src="./img/meet (7).png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color: white; font-size: 50px;">MeetSounds</h5>
+                      <p style="color: white; font-size: 25px; font-weight: bold;">Conecta con otras personas</p>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="/img/meet (8).png" class="d-block w-100" alt="...">
+                    <img style="border-radius: 30px;" src="./img/meet (9).png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color: white; font-size: 50px;">MeetSounds</h5>
+                      <p style="color: white; font-size: 25px; font-weight: bold;">Conecta con otras personas</p>
+                    </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-              <br>
-              <div class="tecnologias">
-                <p style="font-size: x-large;">Lenguajes y Herramientas</p>
-                
-                <div style="display: flex; align-items: center; justify-content: center; gap: 20px;"  class="lenguaje">
-                    
-                    <div style="display: flex; flex-direction: column; align-items: center;" class="seccion" >
-                        <b>Backend</b>
-                        <img src="https://skillicons.dev/icons?i=spring,mongo,graphql,aws" />
-                    </div>
-                   
-                    <br>
-                    <div style="display: flex; flex-direction: column; align-items: center;" class="seccion">
-                        <b>Frontend</b>
-                        <img src="https://skillicons.dev/icons?i=react,html,css" />
-                    
-                    </div>
-                    <br>
-                    <div style="display: flex; flex-direction: column; align-items: center;" class="seccion">
-                        <b>Herramientas</b>
-                        <img src="https://skillicons.dev/icons?i=vscode,git" />
-                    
-                    </div>
-                </div>
-    
-            </div>
-              <p style="font-size: x-large;">Equipo:</p>
-              <div style="display: flex; flex-direction: row; gap: 20px;">
-                <ul>
-                    <b>Frontend</b  >
-                    <li style="color: yellow;">MauroB_Dev</li>
-                    <li>Emiliano</li>
-                    <li>Germna</li>
-                    <br>
-                  </ul>
-                  <ul>
-                    <b>Backend</b>
-                    <li>Leonardo</li>
-                    <li>Joaco</li>
-                  </ul>
-              </div>
         </div>
-        <div class="contacto" id="contacto">
-            <h3>Contacto</h3>
+        <div class="tecnologias">
+            <h2>Contacto</h2>
             <hr>
-            <div class="lenguajes">
-                <div class="contac">
-                    <a style="all: unset;" href="mailto:mauroberni002@gmail.com">
-                        <img src="https://skillicons.dev/icons?i=gmail" />
-    
-                    </a>
-                    <a style="all: unset;" href="https://www.linkedin.com/in/maurodev">
-                        <img src="https://skillicons.dev/icons?i=linkedin" />
-    
-                    </a>
+            <div style="display: flex; justify-content: center;">
+                <div class="backend">
+                    
+                    <div class="logos">
+                        <a href="https://www.linkedin.com/in/maurodev" target="_blank">
+                            <img style="padding: 3%;" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="62" height="50" alt="linkedin logo"  />
+                        </a>   
+                        <a href="mailto:mauroberni002@gmail.com" target="_blank">
+                            <img style="padding: 3%;" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="62" height="50" alt="gmail logo"  />
+                        </a>
+                        </div>              
+               
                 </div>
-        
+                
             </div>
+
         </div>
     </div>
 
 
-    
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+
